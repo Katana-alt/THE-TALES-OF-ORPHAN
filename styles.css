@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background: #2d6a4f;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.subtitle {
+    font-style: italic;
+    margin-top: -5px;
+}
+
+.book-preview {
+    padding: 20px;
+    text-align: center;
+}
+
+.book-preview img {
+    max-width: 250px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.description {
+    max-width: 600px;
+    margin: auto;
+    line-height: 1.6;
+}
+
+.payment-info {
+    background: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.payment-info ol {
+    padding-left: 20px;
+}
+
+.confirmation-form {
+    background: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+form input, form textarea, form button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    background: #2d6a4f;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #1b4332;
+}
+
+.note {
+    font-size: 0.9em;
+    color: #666;
+}
+
+footer {
+    background: #2d6a4f;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

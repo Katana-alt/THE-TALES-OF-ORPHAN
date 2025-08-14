@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Tales of an Orphan - Ebook Purchase</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>The Tales of an Orphan</h1>
+    <p class="subtitle">By Kitsao Katana</p>
+</header>
+
+<section class="book-preview">
+    <img src="1f62f42e-15db-481e-9c27-6ba9083285ea.png" alt="The Tales of an Orphan Cover">
+    <p class="description">
+        “I didn’t choose to be an orphan. But I chose what kind of man I’d become.”
+        In this heartfelt memoir, Kitsao Katana shares the story of growing up in Muyeye,
+        a small village on Kenya’s coast, where loss came early and hope was hard-earned.
+        Through the eyes of a boy learning to survive without parents—and later,
+        a young man finding purpose in teaching—<strong>The Tales of an Orphan</strong> 
+        is a journey through grief, grit, and grace.
+    </p>
+</section>
+
+<section class="payment-info">
+    <h2>How to Buy</h2>
+    <ol>
+        <li>Go to your M-Pesa Menu.</li>
+        <li>Select <strong>Send Money</strong>.</li>
+        <li>Enter phone number: <strong>0701594268</strong>.</li>
+        <li>Amount: <strong>KES 450</strong> </li>
+        <li>Send and take a screenshot or note your transaction code.</li>
+    </ol>
+</section>
+
+<section class="confirmation-form">
+    <h2>Send Us Your Payment Details</h2>
+    <form id="paymentForm">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <input type="text" placeholder="M-Pesa Transaction Code" required>
+        <textarea placeholder="Any notes (optional)"></textarea>
+        <button type="submit">Submit Payment Details</button>
+    </form>
+    <p class="note">Once we confirm your payment, we will send the ebook to your email or WhatsApp.</p>
+</section>
+
+<footer>
+    <p>&copy; 2025 Kitsao Katana. All Rights Reserved.</p>
+</footer>
+
+<script>
+document.getElementById('paymentForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    alert("Thank you! We have received your payment details. We will send your ebook shortly.");
+});
+</script>
+
+</body>
+</html>
